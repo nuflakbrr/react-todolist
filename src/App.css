@@ -5,8 +5,25 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #666;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c2c2c2;
+  border-radius: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: linear-gradient(90deg, rgba(48, 16, 255, 1) 0%, rgba(100, 115, 255, 1) 100%);
+  background: linear-gradient(90deg, rgb(36, 25, 110) 0%, rgb(143, 149, 197) 100%);
 }
 .todo-app {
   display: flex;
@@ -39,7 +56,7 @@ h1 {
 .todo-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid #5d0cff;
+  border: 2px solid #491f9c;
   outline: none;
   width: 320px;
   background: transparent;
@@ -56,7 +73,7 @@ h1 {
   border-radius: 0 4px 4px 0;
   cursor: pointer;
   outline: none;
-  background: linear-gradient(90deg, rgba(93, 12, 255, 1) 0%, rgba(155, 0, 250, 1) 100%);
+  background: linear-gradient(90deg, rgb(71, 22, 170) 0%, rgb(113, 27, 167) 100%);
   color: #fff;
   text-transform: capitalize;
 }
