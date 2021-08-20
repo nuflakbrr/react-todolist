@@ -250,7 +250,7 @@ main {
   padding: 0.25rem 1rem;
   border-radius: var(--radius);
   text-transform: capitalize;
-  background-color: lightgray;
+  background-color: rgb(238, 238, 238);
 }
 
 .grocery-item:hover {
